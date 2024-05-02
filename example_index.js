@@ -2,6 +2,8 @@ import bcrypt, { hash } from "bcrypt";
 import express from "express";
 
 const app = express();
+const port = process.env.PORT || 4000;
+
 app.use(express.json());
 
 const users = [];
@@ -34,4 +36,6 @@ app.post("/login", async (req, res) => {
   res.send("ok");
 });
 
-// app.listen(8080, () => console.log("listening on port 8080"));
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
