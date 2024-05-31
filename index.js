@@ -10,7 +10,7 @@ app.use(cors());
 const users = [
   {
     username: "elodie",
-    password: "$2b$13$vmZTL3X3B7JPnChxf8elleECAUfG4Ei0votqRy4vi2NQhV9eieH3e",
+    password: "$2b$13$eiIbwUhPglzr2mrxW0K.8uDUTcwCHkmq.KkTE5EzcOWzj6.z56Alu",
   },
 ];
 
